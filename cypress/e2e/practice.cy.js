@@ -9,7 +9,7 @@ describe('Practice page', { testIsolation: false }, ()=>{
     
     })
 
-    it.only('Test Radio buttons', ()=>{
+    it('Test Radio buttons', ()=>{
 
     cy.get("#hondaradio").check().should('be.checked');
 
