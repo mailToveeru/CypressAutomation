@@ -1,8 +1,8 @@
 
 describe('Alerts', ()=>{
 
-
-    it('simple javascript alert', ()=>{
+//add
+    it.only('simple javascript alert', ()=>{
 
         cy.visit("https://the-internet.herokuapp.com/javascript_alerts")
         cy.get("button[onclick='jsAlert()']").click()
