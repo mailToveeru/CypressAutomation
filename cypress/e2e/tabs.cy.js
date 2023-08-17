@@ -17,7 +17,7 @@ describe('tabs', ()=>{
         cy.go('back')
     })
 
-    it.only('tabs handle using approach 2',()=>{
+    it('tabs handle using approach 2',()=>{
 
         cy.viewport(1366, 768) 
 
