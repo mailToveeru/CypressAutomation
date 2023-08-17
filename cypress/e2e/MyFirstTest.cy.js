@@ -21,7 +21,7 @@ describe('My First Test', () => {
 
     })
 
-    it('test2', () => {
+    it.only('test2', () => {
        
       cy.log("Validating tickets logo")
 
