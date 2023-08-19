@@ -12,7 +12,7 @@ it('Test on Amazon website',()=>{
         if($element.text()== "samsung galaxy s21 case")
 
         cy.wrap($element).click();
-
+//add
       })
 
      })
