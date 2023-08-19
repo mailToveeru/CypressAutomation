@@ -1,9 +1,6 @@
 describe('test iframe', ()=>{
 
-
-
-    it.only('test1', ()=>{
-
+it.only('test1', ()=>{
 
         cy.viewport(1366, 768) 
         cy.once('uncaught:exception', () => false);
