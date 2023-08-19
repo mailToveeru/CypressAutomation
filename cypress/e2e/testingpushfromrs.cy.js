@@ -43,5 +43,7 @@ public class LoginTests {
 
         // Close the browser
         driver.quit();
+
+        //tetst for fetch
     }
 }
