@@ -45,6 +45,5 @@ public class LoginTests {
         driver.quit();
 
         //tetst for fetch
-        //tetst for fetch -02
     }
 }
